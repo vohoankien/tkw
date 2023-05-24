@@ -1,0 +1,330 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.header_top{
+			background: black;
+			padding: 20px 50px;
+		}
+.login-menu {
+  position: relative;
+	display: flex;
+	float:right;
+	text-decoration: none;
+	top:-10px;
+}
+		.login-menu a{
+			color: #000000;
+			text-decoration: none;
+			font-weight: bold;
+			margin-left: 5px;
+			font-size: 15px;
+			
+		}
+		.login-menu:hover .login-dropdown 
+{
+  display: block;
+}
+.login-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+  z-index: 1;
+}
+
+.login-dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.login-dropdown li {
+  margin: 0;
+  padding: 0;
+}
+
+.login-dropdown a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.login-dropdown a:hover {
+  background-color: gray;
+  color: white;
+}
+
+
+		
+		.imageChange{
+			max-height: 23px;
+		}
+		.body {
+			margin: 0;
+			padding: 0;
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.header_menu{
+		position: relative;
+	display: flex;
+	float:right;
+	text-decoration: none;
+		}
+		.header_menu ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			
+		}
+		.header_menu li {
+			margin-right: 20px;
+			margin-top: 10px;
+			margin-left: 20px;
+			
+		}
+		.header_menu a {
+			color: #000000;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 15px;
+		}
+		.header_menu a:hover {
+			color: #FFFFFF;
+			
+		}
+		.header_menu ul ul {
+  display: none;
+  position: absolute;
+			
+}
+.header_menu ul li:hover > ul {
+  display: inherit;
+}
+		.SPNoiBat ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		.SPNoiBat li{
+			margin-left: 20px;
+		}
+		.SPNoiBat a{
+			color: #000000;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 15px;
+			
+		}
+.menu {
+  position: relative;
+	display: flex;
+	float:left;
+	text-decoration:none;
+}
+
+		.menu:hover .login-dropdown 
+{
+  display: block;
+}
+		.no-bullet {
+  list-style-type: none;			
+}
+		.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer .box-container .box{
+    padding: px ;
+    flex: 10px;
+	list-style-type: none;
+	margin-left: 38px;
+}
+		.box a{
+			color: #000000;
+			text-decoration: none;
+			margin-left: -38px;
+			font-size: 15px;
+			
+		}
+
+	</style>
+</head>
+<body>
+		<div class="header_top">
+			<div class="login-menu">
+<img src="Image/Hotline.jpg" class="imageChange" alt="Hotline">
+					<li><a href="#" style="color: white">18006226 </a></li>
+					<li><a style="color: white">|</a></li>
+  <li><a href="#" class="login-link" style="color: white">Đăng nhập</a></li>
+<li><img src="Image/images.png" class="imageChange" alt="DangNhap"></li>
+  <div class="login-dropdown">
+    <ul>
+      <li><a href="#">Đăng ký</a></li>
+		<li><a href="#">Đăng nhập</a></li>
+      <li><a href="#">Ưu đãi hội viên</a></li>
+    </ul>
+  </div>
+</div>
+	</div>
+	<header>
+<div class="header_menu">
+	  <ul>
+		  <li><a href="Trang_Chu.html" style="font-size: 25px; margin-top: 15px;color: black;">ARISTIONO</a></li>
+		  
+		  <div class="menu">
+		  <li><a href="#" style="color: black;">THƯƠNG HIỆU</a></li>
+			  <div class="login-dropdown">
+			    <li><a href="thuonghieu1.html">Tin tức Aristino</a></li>
+				  <li><a href="thuonghieu1.html">Phong cách Aristino</a></li>
+			  </div>
+			   </div>
+		  
+		  <div class="menu">
+		  <li><a href="#" style="color: black">SẢN PHẨM</a></li>
+			  <div class="login-dropdown">
+			    <li><a href="polo.html">ÁO</a></li>
+				  <li><a href="QuaAu.html">Quần</a></li>
+			  </div>
+			   </div>
+		  
+			  <div class="menu">
+		  <li><a href="#" style="color: black">PHỤ KIỆN</a></li>
+				  <div class="login-dropdown">
+			    <li><a href="Giay.html">Giày</a></li>
+				  <li><a href="#">Cặp da</a></li>
+			  </div>
+			   </div>
+		  
+		  <div class="menu">
+		  <li><a href="#" style="color: black">BỘ SƯU TẬP </a> </li>
+			  <div class="login-dropdown">
+			    <li><a href="MAN_IN_OFFICITY.html">MAN IN OFFICITY</a></li>
+				  <li><a href="Man_In_Regeneration.html">MAN IN REGENERATION</a></li>
+			  </div>
+		  </div>
+		  
+				  <div class="menu">
+		  <li><a href="#" style="color: black">CỬA HÀNG</a></li>
+					  <div class="login-dropdown">
+			    <li><a href="cuahang1.html">Online Store</a></li>
+				  <li><a href="cuahang1.html">Hệ thống cửa hàng</a></li>
+			  </div>
+			   </div>
+		  
+		  <li><a href="thongTin.html" style="color: black">THÔNG TIN</a></li>
+		  
+				<div class="menu">
+		  <li><a href="#" style="color: red">OUTLET STORE </a></li>
+				<div class="login-dropdown">
+			    <li><a href="#">Áo Sơ Mi</a></li>
+				  <li><a href="#">Áo Sơ Mi</a></li>
+			  </div>
+		  </div>
+		  
+		  <form>
+  			<input type="text" placeholder="Tìm kiếm...">
+  			<button type="submit">Tìm kiếm</button>
+			</form>
+		  <a href="#" >
+   <img src="Image/icon-2445095_1280.webp" style="max-height: 45px;margin-left: 50px;" alt="Logo yêu thích sản phẩm">
+</a>
+		 <a href="#"><img src="Image/ThanhToan.png" class="imageChange" style="margin-left: 50px;padding-top: 10px" alt="ThanhToan" ></a> 
+	  </ul>
+	</div>
+	</header>
+	<hr style="position:relative; top:10px; border-color: #383443;">
+	
+  <img src="Image/Image1.jpg" style="padding-top: 20px;max-height: 690px;margin-top: 0px;" alt="BiaAnh">
+	<div class="SPNoiBat">
+	<h2>DANH MỤC NỔI BẬT</h2>
+<ul>
+  <li>
+    <a href="#">
+      <img src="Image/Ao-blazer-Aristino-danh-m-c-n-i-b-t-1x500x500x4.webp" alt="Sản phẩm 1">
+      <p>ÁO BLAZER</p>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <img src="Image/sp2.webp" alt="Sản phẩm 2">
+      <p>ÁO POLO</p>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <img src="Image/sp3.webp" alt="Sản phẩm 3">
+      <p>ÁO SƠ MI</p>
+    </a>
+  </li>
+</ul>
+	</div>
+	
+	<hr style="position:relative; top:10px; border-color: #383443;">
+	
+	<section class="footer">
+					<section class="box-container">
+						<div class="box">
+							<h3>VỀ CHÚNG TÔI</h3>
+							<ul class="no-bullet">
+								<li><a href="#" >Câu chuyện thương hiệu </a></li>
+								<li><a href="#" >Đôi cánh ước mơ</a></li>
+								<li><a href="#" >Tin tức</a></li>
+								<li><a href="#" >Tuyển dụng</a></li>
+								<li><a href="#" >Liên hệ</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>CHÍNH SÁCH BẢO HÀNH </h3>
+							<ul class="no-bullet">
+								<li><a href="#" >Chính sách đổi hàng </a></li>
+								<li><a href="#" >Chính sách bảo hành</a></li>
+								<li><a href="#" >Chính sách hội viên</a></li>
+								<li><a href="#" >Chính sách giao nhận</a></li>
+								<li><a href="#" >Hướng dẫn mua hàng</a></li>
+								<li><a href="#" >Chính sách bảo mật</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>TƯ VẤN</h3>
+							<ul class="no-bullet">
+								<li><a href="#" >Tư vấn phong cách </a></li>
+								<li><a href="#" >Tư vấn chọn size</a></li>
+								<li><a href="#" >Hỏi đáp</a></li>
+							</ul>
+							</div>
+							<div class="box">
+								<h3>THEO DÕI BẢN TIN CỦA CHÚNG TÔI</h3>
+								<ul>
+									<form>
+  			<input type="text" placeholder="Nhập email của bạn...">
+  			<button type="submit">Đăng ký</button>
+										<p>Kết nối với chúng tôi</p>
+										<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+										<img src="Image/youtube_black.jpg" alt="youtube" style="max-width: 40px; margin-left: 80px;">
+										</a>
+			</form>
+								</ul>
+							</div>
+						
+						</section>
+					</section>
+	<p style="margin-left: 38px;">CÔNG TY CỔ PHẦN ĐẦU TƯ K&G VIỆT NAM<br><br>Trụ sở chính: Tầng 11 khối A, tòa nhà Sông Đà, đường Phạm Hùng, Phường Mỹ Đình 1 Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam<br><br>Giấy chứng nhận Đăng ký Kinh doanh số 0105911105 do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp lần đầu ngày 08/06/2012 và sửa đổi lần thứ 10 ngày 05/05/2022</p>
+	</body>
+</html>

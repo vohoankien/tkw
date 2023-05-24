@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.head {
+	float: right;
+	margin-right: 100px;
+}
+.head li {
+	color: white;
+	display: inline-block;
+	padding-top: 10px;
+}
+.head li a{
+	color: white;
+	text-decoration: none;
+}
+.menu{
+	height: 80px;
+	background-color: white;
+}
+h1 {
+	font-size: 35px;
+	padding: 20px;
+	padding-left: 60px;
+	float: left;
+}
+.menu1{
+	float: left;
+}
+.menu1 li{
+display: inline-block;
+position: relative;
+padding: 10px;
+padding-top: 30px;
+}
+.menu1 li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+.menu1>li:last-child>a{
+	color:red;
+}
+.menu2 {
+	top:80px;
+	position: absolute;
+	background-color: yellow;
+	width: 150px;
+	display: none;
+	background-color: white;
+	box-shadow: 0px 0.5px 1px 0.5px;
+}
+.menu2 li{
+	display: block;
+	text-align: center;
+}
+.menu1 li:hover>.menu2{
+	display: block;
+}
+.menu1 li:hover>a{
+	color:grey;
+}
+.menu1 li:hover{
+	border-bottom: 1px red solid;
+}
+.menu2 .menu2{
+	top:0px;
+	left: 150px;
+}
+.khung{
+	width: 1400px;
+	height: 500px;
+	margin: 0px auto;
+margin-top: 20px;
+}
+.content{
+	width: 340px;
+	height: 450px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.khung>div:nth-child(4n)
+{
+	margin-right: 0px;
+}
+.chuyentrang{
+	margin-top: 30px;
+}
+.chuyentrang>a{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+	margin-right: 20px;
+}
+.chuyentrang>a:hover{
+	color: white;
+	background-color: black;
+}
+.footer{
+	width: 100%;
+	height: 650px;
+}
+.contentft{
+	width: 28%;
+	height: 300px;
+	display: block;
+	float: left;
+	margin: 20px;
+	margin-top: 100px;
+}
+.footer>div>:first-child{
+margin-left: 0px;
+}
+.footer p{
+	margin-top: 20px;
+}
+.img{
+	width: 100%;
+	height: 80%;
+	background-size: cover;
+}
+.new {
+display: inline-block;
+background-color: white;
+padding: 2px;
+margin: 10px;
+margin-top: 20px;
+}
+.tensp_cost{
+	width: 100%;
+	height: 25%;
+	margin-top: 307px;
+}
+.tensp_cost>p{
+	font-size: 18px;
+	padding-top: 10px;
+}
+.cost{
+	font-weight: bold;
+}
+.content:hover{
+	background-color:antiquewhite;
+}

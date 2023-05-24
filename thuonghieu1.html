@@ -1,0 +1,396 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="stay.css">
+<title>Untitled Document</title>
+	<style>
+        
+		.header_top{
+			background: black;
+			padding: 20px 50px;
+		}
+.login-menu {
+  position: relative;
+	display: flex;
+	float:right;
+	text-decoration: none;
+	top:-10px;
+}
+		.login-menu a{
+			color: #000000;
+			text-decoration: none;
+			font-weight: bold;
+			margin-left: 5px;
+			font-size: 15px;
+			
+		}
+		.login-menu:hover .login-dropdown 
+{
+  display: block;
+}
+.login-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+  z-index: 1;
+}
+
+.login-dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.login-dropdown li {
+  margin: 0;
+  padding: 0;
+}
+
+.login-dropdown a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.login-dropdown a:hover {
+  background-color: gray;
+  color: white;
+}
+
+
+		
+		.imageChange{
+			max-height: 23px;
+		}
+		.body {
+			margin: 0;
+			padding: 0;
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		.header_menu{
+		position: relative;
+	display: flex;
+	float:right;
+	text-decoration: none;
+		}
+		.header_menu ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			
+		}
+		.header_menu li {
+			margin-right: 20px;
+			margin-top: 10px;
+			margin-left: 20px;
+			
+		}
+		.header_menu a {
+			color: #000000;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 15px;
+		}
+		.header_menu a:hover {
+			color: #FFFFFF;
+			
+		}
+		.header_menu ul ul {
+  display: none;
+  position: absolute;
+			
+}
+.header_menu ul li:hover > ul {
+  display: inherit;
+}
+		.SPNoiBat ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		.SPNoiBat li{
+			margin-left: 20px;
+		}
+		.SPNoiBat a{
+			color: #000000;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 15px;
+			
+		}
+.menu {
+  position: relative;
+	display: flex;
+	float:left;
+	text-decoration:none;
+}
+
+		.menu:hover .login-dropdown 
+{
+  display: block;
+}
+		.no-bullet {
+  list-style-type: none;			
+}
+		.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footer .box-container .box{
+    padding: px ;
+    flex: 10px;
+	list-style-type: none;
+	margin-left: 38px;
+}
+		.box a{
+			color: #000000;
+			text-decoration: none;
+			margin-left: -38px;
+			font-size: 15px;
+			
+		}
+
+	</style>
+</head>
+<body >
+		<div class="header_top">
+			<div class="login-menu">
+<img src="Image/Hotline.jpg" class="imageChange" alt="Hotline">
+					<li><a href="#" style="color: white">18006226 </a></li>
+					<li><a style="color: white">|</a></li>
+  <li><a href="#" class="login-link" style="color: white">Đăng nhập</a></li>
+<li><img src="Image/images.png" class="imageChange" alt="DangNhap"></li>
+  <div class="login-dropdown">
+    <ul>
+      <li><a href="#">Đăng ký</a></li>
+		<li><a href="#">Đăng nhập</a></li>
+      <li><a href="#">Ưu đãi hội viên</a></li>
+    </ul>
+  </div>
+</div>
+	</div>
+	<header>
+<div class="header_menu">
+	  <ul>
+		  <li><a href="Trang_Chu.html" style="font-size: 25px; margin-top: 15px;color: black;">ARISTIONO</a></li>
+		  
+		  <div class="menu">
+		  <li><a href="#" style="color: black;">THƯƠNG HIỆU</a></li>
+			  <div class="login-dropdown">
+			    <li><a href="thuonghieu1.html">Tin tức Aristino</a></li>
+				  <li><a href="thuonghieu1.html">Phong cách Aristino</a></li>
+			  </div>
+			   </div>
+		  
+		  <div class="menu">
+		  <li><a href="#" style="color: black">SẢN PHẨM</a></li>
+			  <div class="login-dropdown">
+			    <li><a href="SanPham_AoSoMi.html">Áo</a></li>
+				  <li><a href="QuaAu.html">Quần</a></li>
+			  </div>
+			   </div>
+		  
+			  <div class="menu">
+		  <li><a href="#" style="color: black">PHỤ KIỆN</a></li>
+				  <div class="login-dropdown">
+			    <li><a href="Giay.html">Giày</a></li>
+				  <li><a href="#">Cặp da</a></li>
+			  </div>
+			   </div>
+		  
+		  <div class="menu">
+		  <li><a href="#" style="color: black">BỘ SƯU TẬP </a> </li>
+			  <div class="login-dropdown">
+			    <li><a href="MAN_IN_OFFICITY.html">MAN IN OFFICITY</a></li>
+				  <li><a href="Man_In_Regeneration.html">MAN IN REGENERATION</a></li>
+			  </div>
+		  </div>
+		  
+				  <div class="menu">
+		  <li><a href="#" style="color: black">CỬA HÀNG</a></li>
+					  <div class="login-dropdown">
+			    <li><a href="cuahang1.html">Online Store</a></li>
+				  <li><a href="cuahang1.html">Hệ thống cửa hàng</a></li>
+			  </div>
+			   </div>
+		  
+		  <li><a href="thongTin.html" style="color: black">THÔNG TIN</a></li>
+		  
+				<div class="menu">
+		  <li><a href="#" style="color: red">OUTLET STORE </a></li>
+				<div class="login-dropdown">
+			    <li><a href="#">Áo Sơ Mi</a></li>
+				  <li><a href="#">Áo Sơ Mi</a></li>
+			  </div>
+		  </div>
+		  
+		  <form>
+  			<input type="text" placeholder="Tìm kiếm...">
+  			<button type="submit">Tìm kiếm</button>
+			</form>
+		  <a href="#" >
+   <img src="Image/icon-2445095_1280.webp" style="max-height: 45px;margin-left: 50px;" alt="Logo yêu thích sản phẩm">
+</a>
+		 <a href="#"><img src="Image/ThanhToan.png" class="imageChange" style="margin-left: 50px;padding-top: 10px" alt="ThanhToan" ></a> 
+	  </ul>
+	</div>
+	</header>
+	<hr style="position:relative; top:10px; border-color: #383443;">
+    <inline><h2 style="margin-left: 300px; margin-top: 100px;"><a style="color: dimgray;">Home</a>  /  <a style="color: dimgray">Thương hiệu </a> /  Tin tức Aristiono</h2></inline>
+	<div style="  width: 80%;margin: 200px auto; " >
+        <table  style="border-spacing: 12px;">
+        <tr>
+        <td>
+        <div  >
+            <img src="img/1.webp" height="100%">
+            
+            <h3>ARISTINO RA MẮT BST XUÂN HÈ 2023: BÌNH MINH KHÁT VỌNG - MỞ ĐẦU THẬP KỶ MỚI</h3>
+            <p >Là một trong những thương hiệu thời trang nam hàng đầu Việt Nam, để đưa sản phẩm phủ rộng đến  tay người tiêu dung</p>
+          
+        </div>
+        </td>
+        <td>
+        
+        <div >
+       
+            <img src="img/2.webp">
+           
+            <h3>THƯƠNG HIỆU THỜI TRANG NAM ARISTINO RA MẮT DỊCH VỤ MAY ĐO CAO CẤP</h3>
+           
+            <p>Đồng hành cùng khách hàng xây dựng phong cách thời trang cá nhân</p>
+     
+        </div>
+        </td>
+        <td id="a">
+        <div id="anh" >
+            <img src="img/3.webp" >
+            <h3>NHỮNG ĐIỀU CẦN BIẾT VỀ ĐẶC TÍNH CỦA DA TỰ NHIÊN</h3>
+            <p>Đồng hành cùng khách hàng xây dựng phong cách thời trang cá nhânDo tính chất da tự nhiên tùy thuộc vị trí da sử dụng trên sản phẩm.sssBề mặt da trên sản phẩm sẽ không đồng đều, khác</p>
+    
+        </div>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div>
+            <img src="img/4.webp" alt="">
+            <h3>GỢI Ý CÁCH PHÂN BIỆT SẢN PHẨM ARISTINO TRONG CÁC CỬA HÀNG TỔNG HỢP</h3>
+            <p>Là một trong những thương hiệu thời trang nam hàng đầu Việt Nam, để đưa sản phẩm phủ rộng đến tay người tiêu</p>
+        </div>
+        </td>
+        <td>
+        <div>
+            <img src="img/5.webp" alt="">
+            <h3>THƯƠNG HIỆU THỜI TRANG NAM ARISTINO RA MẮT DỊCH VỤ MAY ĐO CAO CẤP</h3>
+            <p>Đánh dấu HÀNH TRÌNH 10 năm đồng hành cùng khách hàng Việt, Aristino CHO RA MẮT dịch vụ may đo cao cấp kết hợp</p>
+    
+        </div>
+        </td>
+        <td id="a">
+        <div id="anh">
+            <img src="img/6.webp" >
+            <h3>DỊCH VỤ CHĂM SÓC DÀNH KHÁCH HÀNG CỦA ARISTINO</h3>
+            
+            <p>Với sứ mệnh phục vụ khách hàng bằng các dịch vụ đến từ trái tim, Aristino đã, đang và sẽ quyết tâm mang đến các trải</p>
+        </div>
+        <tr>
+        <td>
+        <div >
+            <img src="img/7.webp" alt="">
+            <h3>ARISTINO RA MẮT BST XUÂN HÈ 2023: BÌNH MINH KHÁT VỌNG - MỞ ĐẦU THẬP KỶ MỚI</h3>
+           
+            <p>Tiếp nối hành trình lưu giữ những giá trị truyền thống, ứng dụng văn hoá Việt vào trong từng thiết kế, Aristino ra mắt BST</p>
+    
+        </div>
+        </td>
+        <td>
+        <div >
+            <img src="img/8.webp" alt="">
+            <h3>ĐẶC QUYỀN ARISTINO DÀNH RIÊNG CHO QUÝ KHÁCH HÀNG: SHOES CARE, FASHION CARE</h3>
+            <p>Trên hành trình phụng sự khách hàng, Aristino không chỉ tập trung phát triển sản phẩm cao cấp mà còn nỗ lực đem</p>
+    
+        </div>
+        </td>
+        <td id="a">
+        <div id="anh">
+            <img src="img/9.webp" id="anh">
+            <h3>THÔNG BÁO: KẾT THÚC THỜI GIAN NHẬN KHÁCH HÀNG ĐĂNG KÝ THAM GIA CHƯƠNG TRÌNH </h3>
+            <p>Aristino xin dừng nhận khách hàng mới đăng ký tham gia chương trình Săn H.I.O cùng Aristino</p>
+    
+        </div>
+        </td>
+        </tr>
+        </table>
+        </div>
+    
+    </div>
+    <div style="margin-top: -200px;">
+	<hr style="position:relative; top:10px; border-color: #383443;">
+	
+	<section class="footer">
+					<section class="box-container">
+						<div class="box">
+							<h3>VỀ CHÚNG TÔI</h3>
+							<ul class="no-bullet">
+								<li><a href="#" >Câu chuyện thương hiệu </a></li>
+								<li><a href="#" >Đôi cánh ước mơ</a></li>
+								<li><a href="#" >Tin tức</a></li>
+								<li><a href="#" >Tuyển dụng</a></li>
+								<li><a href="#" >Liên hệ</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>CHÍNH SÁCH BẢO HÀNH </h3>
+							<ul class="no-bullet">
+								<li><a href="#" >Chính sách đổi hàng </a></li>
+								<li><a href="#" >Chính sách bảo hành</a></li>
+								<li><a href="#" >Chính sách hội viên</a></li>
+								<li><a href="#" >Chính sách giao nhận</a></li>
+								<li><a href="#" >Hướng dẫn mua hàng</a></li>
+								<li><a href="#" >Chính sách bảo mật</a></li>
+							</ul>
+						</div>
+						<div class="box">
+							<h3>TƯ VẤN</h3>
+							<ul class="no-bullet">
+								<li><a href="#" >Tư vấn phong cách </a></li>
+								<li><a href="#" >Tư vấn chọn size</a></li>
+								<li><a href="#" >Hỏi đáp</a></li>
+							</ul>
+							</div>
+							<div class="box">
+								<h3>THEO DÕI BẢN TIN CỦA CHÚNG TÔI</h3>
+								<ul>
+									<form>
+  			<input type="text" placeholder="Nhập email của bạn...">
+  			<button type="submit">Đăng ký</button>
+										<p>Kết nối với chúng tôi</p>
+										<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+										<img src="Image/youtube_black.jpg" alt="youtube" style="max-width: 40px; margin-left: 80px;">
+										</a>
+			</form>
+								</ul>
+							</div>
+						
+						</section>
+					</section>
+	<p style="margin-left: 38px;">CÔNG TY CỔ PHẦN ĐẦU TƯ K&G VIỆT NAM<br><br>Trụ sở chính: Tầng 11 khối A, tòa nhà Sông Đà, đường Phạm Hùng, Phường Mỹ Đình 1 Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam<br><br>Giấy chứng nhận Đăng ký Kinh doanh số 0105911105 do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp lần đầu ngày 08/06/2012 và sửa đổi lần thứ 10 ngày 05/05/2022</p>
+</div>
+</body>
+</html>
